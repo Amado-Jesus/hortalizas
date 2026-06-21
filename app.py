@@ -25,7 +25,7 @@ def load_model():
     model = CNN()
     checkpoint = torch.load('mobilenet_checkpointv2.pth')
     
-    model.load_state_dict(checkpoint['model_state_dict'])
+    model.load_state_dict(checkpoint['model_state_dict'],map_location = "cpu")
     
     
    
