@@ -23,9 +23,9 @@ uploaded_file = st.file_uploader(
 def load_model():
     
     model = CNN()
-    checkpoint = torch.load('mobilenet_checkpointv2.pth')
+    checkpoint = torch.load('mobilenet_checkpointv2.pth',,map_location = "cpu")
     
-    model.load_state_dict(checkpoint['model_state_dict'],map_location = "cpu")
+    model.load_state_dict(checkpoint['model_state_dict'])
     
     
    
