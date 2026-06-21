@@ -20,16 +20,24 @@ uploaded_file = st.file_uploader(
 
 
 @st.cache_resource
+
+
 def load_model():
-    
+
+    device = torch.device("cpu")
+
     model = CNN()
-    checkpoint = torch.load('mobilenet_checkpointv2.pth')
-    
-    model.load_state_dict(checkpoint['model_state_dict'])
-    
-    
-   
-   
+
+    checkpoint = torch.load(
+        "mobilenet_checkpointv2.pth",
+        map_location=device
+    )
+
+    model.load_state_dict(checkpoint["model_state_dict"])
+
+    model.to(device)
+    model.eval()
+
     return model
 
 model = load_model()
