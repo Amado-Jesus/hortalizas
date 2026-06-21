@@ -1,0 +1,62 @@
+from PIL import Image
+import streamlit as st
+import matplotlib.pyplot as plt
+import torch
+import google.generativeai as genai
+import os
+from utils import *
+
+
+
+
+st.title("Sistema de Diagnóstico Inteligente")
+st.write("Sube una imagen de la hoja para obtener la predicción del modelo.")
+
+uploaded_file = st.file_uploader(
+    "Selecciona una imagen",
+    type=["jpg", "jpeg", "png","webp"]
+)
+
+
+
+@st.cache_resource
+def load_model():
+    
+    model = CNN()
+    checkpoint = torch.load('mobilenet_checkpointv2.pth')
+    
+    model.load_state_dict(checkpoint['model_state_dict'])
+    
+    
+   
+   
+    return model
+
+model = load_model()
+
+# ---------------------------
+# PREDICCIÓN
+# ---------------------------
+
+
+if uploaded_file is not None:
+
+    image = Image.open(uploaded_file).convert("RGB")
+   
+    
+
+    fig,pred_clase,confidance = predict(
+    img=image,
+    model=model,
+    transforms=val_transform,
+    device='cpu'
+)
+
+
+    st.subheader("Resultado")
+    st.pyplot(fig)
+
+
+
+    
+   
