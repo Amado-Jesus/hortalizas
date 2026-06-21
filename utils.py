@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import google.generativeai as genai
 import streamlit as st
+import json
 import os
 
 
@@ -70,7 +71,9 @@ def CNN():
 
     return model
     
+with open("recomendaciones.json", "r", encoding="utf-8") as archivo:
     
+    enfermedades = json.load(archivo)   
 
 
 idx = {
@@ -172,8 +175,75 @@ def predict(img, model,transforms, device='cpu'):
     plt.tight_layout()
     plt.show()
     
-    return fig,pred_clase,confidence
+    return fig,pred_idx
 
 
 
 
+def obtener_recomendaciones(idx_):
+    """
+    Retorna las recomendaciones de una enfermedad formateadas para st.markdown().
+    
+    Parametro:
+        idx_ (str o int): Indice de la enfermedad (0-18)
+    
+    Retorna:
+        str: Texto en formato Markdown
+    """
+    
+    idx_ = str(idx_)
+    
+    if idx_ not in enfermedades["enfermedades"]:
+        return f"**Error:** No existe ninguna enfermedad con el indice '{idx_}'"
+    
+    info = enfermedades["enfermedades"][idx_]
+    rec = info["recomendaciones"]
+    
+    lineas = []
+
+    nombre = info['nombre']
+    nombre_limpio = nombre.replace("_", " ")
+
+    
+    # Titulo
+    lineas.append(f"#### {nombre_limpio}")
+    lineas.append("")
+    
+    # Info basica
+    lineas.append(f"**Cultivo:** {rec['cultivo']}")
+    lineas.append(f"**Agente causal:** {info.get('agente_causal', 'No aplica')}")
+    lineas.append("")
+    
+    # Descripcion
+    lineas.append("#### Descripcion")
+    lineas.append(rec['descripcion'])
+    lineas.append("")
+    
+    # Medidas culturales o preventivas
+    if "medidas_preventivas" in rec:
+        lineas.append("#### Medidas Preventivas")
+        medidas = rec["medidas_preventivas"]
+    else:
+        lineas.append("#### Medidas Culturales")
+        medidas = rec.get("medidas_culturales", [])
+    
+    for medida in medidas:
+        lineas.append(f"- {medida}")
+    lineas.append("")
+    
+    # Manejo quimico
+    lineas.append("#### Manejo Quimico")
+    quimico = rec.get("manejo_quimico", [])
+    
+    if quimico:
+        for tratamiento in quimico:
+            lineas.append(f"- {tratamiento}")
+    else:
+        lineas.append("No aplica.")
+    lineas.append("")
+    
+    # Monitoreo
+    lineas.append("#### Monitoreo")
+    lineas.append(rec.get('monitoreo', 'Revision periodica del cultivo.'))
+    
+    return "\n".join(lineas)

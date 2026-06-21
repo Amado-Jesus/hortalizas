@@ -3,6 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import torch
 import google.generativeai as genai
+import json
 import os
 from utils import *
 
@@ -20,24 +21,16 @@ uploaded_file = st.file_uploader(
 
 
 @st.cache_resource
-
-
 def load_model():
-
-    device = torch.device("cpu")
-
+    
     model = CNN()
-
-    checkpoint = torch.load(
-        "mobilenet_checkpointv2.pth",
-        map_location=device
-    )
-
-    model.load_state_dict(checkpoint["model_state_dict"])
-
-    model.to(device)
-    model.eval()
-
+    checkpoint = torch.load('mobilenet_checkpointv2.pth')
+    
+    model.load_state_dict(checkpoint['model_state_dict'])
+    
+    
+   
+   
     return model
 
 model = load_model()
@@ -53,7 +46,7 @@ if uploaded_file is not None:
    
     
 
-    fig,pred_clase,confidance = predict(
+    fig,idx = predict(
     img=image,
     model=model,
     transforms=val_transform,
@@ -63,6 +56,11 @@ if uploaded_file is not None:
 
     st.subheader("Resultado")
     st.pyplot(fig)
+
+
+    recomendaciones = obtener_recomendaciones(idx)
+    st.markdown("---")
+    st.markdown(recomendaciones)
 
 
 

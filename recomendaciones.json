@@ -1,0 +1,406 @@
+{
+    "enfermedades": {
+        "0": {
+            "nombre": "Ma\u00edz___Mancha_foliar_por_Cercospora_(Mancha_gris)",
+            "agente_causal": "Cercospora zeae-maydis",
+            "recomendaciones": {
+                "cultivo": "Ma\u00edz",
+                "descripcion": "Manchas grises con bordes marrones en hojas, reducci\u00f3n de fotos\u00edntesis.",
+                "medidas_culturales": [
+                    "Rotaci\u00f3n de cultivos con leguminosas o pastos (m\u00ednimo 2 a\u00f1os).",
+                    "Eliminaci\u00f3n y destrucci\u00f3n de residuos de cosecha (rastrojo).",
+                    "Uso de variedades resistentes o tolerantes.",
+                    "Siembra en \u00e9pocas adecuadas para evitar condiciones de alta humedad.",
+                    "Evitar exceso de nitr\u00f3geno que promueve crecimiento vegetativo susceptible."
+                ],
+                "manejo_quimico": [
+                    "Aplicar fungicidas con azoxistrobina, pyraclostrobin o mancozeb cuando se detecten las primeras manchas.",
+                    "Realizar 2-3 aplicaciones con intervalos de 10-14 d\u00edas si las condiciones son favorables.",
+                    "Aplicar en etapa de floraci\u00f3n (R1) como referencia de protecci\u00f3n."
+                ],
+                "monitoreo": "Inspeccionar hojas inferiores desde etapa de 6-8 hojas. Condiciones favorables: temperaturas 24-30\u00b0C con alta humedad."
+            }
+        },
+        "1": {
+            "nombre": "Ma\u00edz___Roya_com\u00fan",
+            "agente_causal": "Puccinia sorghi",
+            "recomendaciones": {
+                "cultivo": "Ma\u00edz",
+                "descripcion": "P\u00fastulas de color marr\u00f3n rojizo en hojas, reduce \u00e1rea fotosint\u00e9tica.",
+                "medidas_culturales": [
+                    "Siembra de variedades resistentes (principal medida).",
+                    "Destrucci\u00f3n de plantas voluntarias y residuos de ma\u00edz.",
+                    "Evitar siembras muy tard\u00edas que coincidan con periodos de alta inoculaci\u00f3n.",
+                    "Mantener buen estado de nutrici\u00f3n, especialmente potasio."
+                ],
+                "manejo_quimico": [
+                    "Fungicidas con triazoles (propiconazol, tebuconazol) o estrobilurinas.",
+                    "Aplicar preventivamente si hay historial de la enfermedad.",
+                    "En campos con alta presi\u00f3n, considerar tratamiento en etapa de floraci\u00f3n."
+                ],
+                "monitoreo": "Vigilar desde etapa de floraci\u00f3n. Presencia de p\u00fastulas en hojas inferiores indica inicio de epidemia."
+            }
+        },
+        "2": {
+            "nombre": "Ma\u00edz___Tiz\u00f3n_foliar_del_norte",
+            "agente_causal": "Exserohilum turcicum",
+            "recomendaciones": {
+                "cultivo": "Ma\u00edz",
+                "descripcion": "Lesiones alargadas de color gris verdoso a marr\u00f3n, con halos caracter\u00edsticos.",
+                "medidas_culturales": [
+                    "Uso de h\u00edbridos resistentes (Htl genes).",
+                    "Rotaci\u00f3n con cultivos no gram\u00edneos (soya, algod\u00f3n).",
+                    "Labranza vertical para enterrar residuos infectados.",
+                    "Evitar riego por aspersi\u00f3n excesivo; preferir riego por goteo o surcos.",
+                    "Espaciamiento adecuado para mejorar ventilaci\u00f3n."
+                ],
+                "manejo_quimico": [
+                    "Aplicar fungicidas con mancozeb, clorotalonil o azoxistrobina.",
+                    "Tratamiento en etapa de floraci\u00f3n (R1) o antes si hay presi\u00f3n alta.",
+                    "Repetir aplicaci\u00f3n cada 14 d\u00edas si persisten condiciones h\u00famedas."
+                ],
+                "monitoreo": "Condiciones favorables: temperaturas 18-27\u00b0C con lluvias o roc\u00edo prolongado. Inspeccionar hojas del tercio medio."
+            }
+        },
+        "3": {
+            "nombre": "Ma\u00edz___Sano",
+            "recomendaciones": {
+                "cultivo": "Ma\u00edz",
+                "descripcion": "Planta sin s\u00edntomas de enfermedades.",
+                "medidas_preventivas": [
+                    "Mantener pr\u00e1cticas de manejo integrado de plagas (MIP).",
+                    "Monitoreo regular del cultivo (cada 7-10 d\u00edas).",
+                    "Fertilizaci\u00f3n balanceada seg\u00fan an\u00e1lisis de suelo.",
+                    "Riego adecuado sin estr\u00e9s h\u00eddrico ni encharcamiento.",
+                    "Control de malezas que compitan por nutrientes y agua.",
+                    "Registro fotogr\u00e1fico del estado del cultivo para comparaciones futuras."
+                ],
+                "alerta": "Si se detecta alg\u00fan cambio en coloraci\u00f3n, manchas o crecimiento anormal, consultar inmediatamente."
+            }
+        },
+        "4": {
+            "nombre": "Pimiento_morr\u00f3n___Mancha_bacteriana",
+            "agente_causal": "Xanthomonas campestris pv. vesicatoria",
+            "recomendaciones": {
+                "cultivo": "Pimiento morr\u00f3n",
+                "descripcion": "Manchas acuosas oscuras en hojas y frutos, con halo amarillento; puede causar defoliaci\u00f3n.",
+                "medidas_culturales": [
+                    "Uso de semilla certificada y tratada termicamente (agua a 50\u00b0C por 25 minutos).",
+                    "Rotaci\u00f3n de cultivos (m\u00ednimo 3 a\u00f1os sin solan\u00e1ceas).",
+                    "Eliminaci\u00f3n de plantas enfermas y malezas hospederas.",
+                    "Evitar trabajar en campo con plantas mojadas.",
+                    "Desinfecci\u00f3n de herramientas con hipoclorito de sodio al 10%.",
+                    "Riego por goteo en lugar de aspersi\u00f3n."
+                ],
+                "manejo_quimico": [
+                    "Aplicar bactericidas de cobre (oxicluro de cobre, hidr\u00f3xido de cobre) preventivamente.",
+                    "En infecci\u00f3n activa, usar antibi\u00f3ticos agr\u00edcolas como estreptomicina (donde est\u00e9 permitido).",
+                    "Aplicar cada 7-10 d\u00edas en periodos de lluvia.",
+                    "Alternar modos de acci\u00f3n para evitar resistencia."
+                ],
+                "monitoreo": "Vigilar desde trasplante. Condiciones favorables: temperaturas 24-30\u00b0C con alta humedad y lluvia."
+            }
+        },
+        "5": {
+            "nombre": "Pimiento_morr\u00f3n___Sano",
+            "recomendaciones": {
+                "cultivo": "Pimiento morr\u00f3n",
+                "descripcion": "Planta sin s\u00edntomas de enfermedades.",
+                "medidas_preventivas": [
+                    "Inspecci\u00f3n semanal de hojas, tallos y frutos.",
+                    "Mantener buena ventilaci\u00f3n en invernadero o campo.",
+                    "Control de humedad relativa (evitar exceso).",
+                    "Fertilizaci\u00f3n con \u00e9nfasis en calcio para fortalecer paredes celulares.",
+                    "Uso de mulch para reducir salpicadura de suelo.",
+                    "Registro de condiciones clim\u00e1ticas y estado del cultivo."
+                ],
+                "alerta": "Revisar bordes de hojas y frutos para detecci\u00f3n temprana de manchas."
+            }
+        },
+        "6": {
+            "nombre": "Papa___Tiz\u00f3n_temprano",
+            "agente_causal": "Alternaria solani",
+            "recomendaciones": {
+                "cultivo": "Papa",
+                "descripcion": "Manchas oscuras con anillos conc\u00e9ntricos en hojas; puede afectar tallos y tub\u00e9rculos.",
+                "medidas_culturales": [
+                    "Uso de semilla certificada y libre de pat\u00f3genos.",
+                    "Eliminaci\u00f3n de rastrojo y malezas solan\u00e1ceas (tomate, berenjena).",
+                    "Rotaci\u00f3n de cultivos (m\u00ednimo 3 a\u00f1os sin solan\u00e1ceas).",
+                    "Evitar riego por aspersi\u00f3n; preferir goteo o surcos.",
+                    "Fertilizaci\u00f3n balanceada; evitar exceso de nitr\u00f3geno.",
+                    "Cosecha oportuna para evitar da\u00f1o en tub\u00e9rculos."
+                ],
+                "manejo_quimico": [
+                    "Aplicar fungicidas con mancozeb, clorotalonil o azoxistrobina.",
+                    "Iniciar tratamientos en etapa de emergencia o al primer s\u00edntoma.",
+                    "Intervalos de 7-14 d\u00edas seg\u00fan presi\u00f3n de enfermedad.",
+                    "En tub\u00e9rculos, aplicar fungicidas de contacto post-cosecha para almacenamiento."
+                ],
+                "monitoreo": "Condiciones favorables: temperaturas 20-30\u00b0C con humedad alta. Revisar hojas inferiores primero."
+            }
+        },
+        "7": {
+            "nombre": "Papa___Tiz\u00f3n_tard\u00edo",
+            "agente_causal": "Phytophthora infestans",
+            "recomendaciones": {
+                "cultivo": "Papa",
+                "descripcion": "Manchas acuosas en hojas con esporulaci\u00f3n blanca en env\u00e9s; puede destruir follaje en d\u00edas.",
+                "medidas_culturales": [
+                    "Uso de variedades resistentes (R genes contra P. infestans).",
+                    "Siembra de tub\u00e9rculos certificados y sanos.",
+                    "Eliminaci\u00f3n de plantas voluntarias y lotes de siembra temprana.",
+                    "Buen drenaje del suelo para evitar encharcamiento.",
+                    "Riego por goteo; evitar aspersi\u00f3n en tarde/noche.",
+                    "Cosecha cuando el follaje est\u00e9 seco; secar tub\u00e9rculos antes de almacenar."
+                ],
+                "manejo_quimico": [
+                    "Aplicar fungicidas preventivos con mancozeb o clorotalonil.",
+                    "En infecci\u00f3n activa, usar fungicidas sist\u00e9micos: metalaxyl, mefenoxam o cymoxanil.",
+                    "Programa de aplicaci\u00f3n: cada 5-7 d\u00edas en condiciones favorables.",
+                    "Alternar fungicidas para evitar resistencia.",
+                    "En almacenamiento, ventilar bien y mantener temperaturas 4-10\u00b0C."
+                ],
+                "monitoreo": "Alerta fitosanitaria: temperaturas 10-24\u00b0C con humedad >90% por m\u00e1s de 6 horas. Usar modelos de predicci\u00f3n (Blitecast)."
+            }
+        },
+        "8": {
+            "nombre": "Papa___Sana",
+            "recomendaciones": {
+                "cultivo": "Papa",
+                "descripcion": "Planta sin s\u00edntomas de enfermedades.",
+                "medidas_preventivas": [
+                    "Inspecci\u00f3n semanal del follaje y revisi\u00f3n de tub\u00e9rculos en muestreo.",
+                    "Mantener riego uniforme sin estr\u00e9s h\u00eddrico.",
+                    "Control de malezas solan\u00e1ceas en los alrededores.",
+                    "Aplicaci\u00f3n preventiva de fungicidas de contacto si hay historial de tiz\u00f3n tard\u00edo.",
+                    "Registro de lotes y fechas de siembra para trazabilidad."
+                ],
+                "alerta": "El tiz\u00f3n tard\u00edo puede aparecer r\u00e1pidamente; estar alerta tras lluvias o roc\u00edo prolongado."
+            }
+        },
+        "9": {
+            "nombre": "Tomate___Mancha_bacteriana",
+            "agente_causal": "Xanthomonas campestris pv. vesicatoria / X. perforans",
+            "recomendaciones": {
+                "cultivo": "Tomate",
+                "descripcion": "Manchas acuosas peque\u00f1as en hojas y frutos, con halo amarillo; frutos con lesiones elevadas.",
+                "medidas_culturales": [
+                    "Semilla certificada y tratada t\u00e9rmicamente (agua a 50\u00b0C por 25 min).",
+                    "Rotaci\u00f3n de cultivos (m\u00ednimo 2 a\u00f1os sin solan\u00e1ceas).",
+                    "Eliminaci\u00f3n de plantas enfermas y malezas hospederas.",
+                    "No trabajar en campo con plantas mojadas.",
+                    "Desinfecci\u00f3n de herramientas y manos entre lotes.",
+                    "Riego por goteo; evitar aspersi\u00f3n."
+                ],
+                "manejo_quimico": [
+                    "Aplicar bactericidas de cobre preventivamente (oxicluro de cobre, hidr\u00f3xido de cobre).",
+                    "En infecci\u00f3n activa, usar estreptomicina sulfato donde est\u00e9 permitido.",
+                    "Aplicaciones cada 7-10 d\u00edas, especialmente despu\u00e9s de lluvia.",
+                    "Combinar con manejo cultural para mejor eficacia."
+                ],
+                "monitoreo": "Condiciones favorables: temperaturas 25-30\u00b0C con humedad alta y lluvia. Revisar desde etapa de pl\u00e1ntula."
+            }
+        },
+        "10": {
+            "nombre": "Tomate___Tiz\u00f3n_temprano",
+            "agente_causal": "Alternaria solani",
+            "recomendaciones": {
+                "cultivo": "Tomate",
+                "descripcion": "Manchas marrones con anillos conc\u00e9ntricos en hojas; defoliaci\u00f3n desde base.",
+                "medidas_culturales": [
+                    "Rotaci\u00f3n de cultivos (m\u00ednimo 2 a\u00f1os sin solan\u00e1ceas).",
+                    "Eliminaci\u00f3n de rastrojo y malezas solan\u00e1ceas.",
+                    "Buena ventilaci\u00f3n entre plantas (espaciamiento adecuado).",
+                    "Riego por goteo; evitar mojar follaje.",
+                    "Fertilizaci\u00f3n balanceada; potasio y calcio fortalecen resistencia."
+                ],
+                "manejo_quimico": [
+                    "Fungicidas con mancozeb, clorotalonil o azoxistrobina.",
+                    "Aplicar al primer s\u00edntoma o preventivamente en historial de enfermedad.",
+                    "Intervalos de 10-14 d\u00edas.",
+                    "En frutos, aplicar caldo bordel\u00e9s preventivamente para mancha en fruto."
+                ],
+                "monitoreo": "Condiciones favorables: temperaturas 20-30\u00b0C con humedad relativa >90%. Revisar hojas inferiores."
+            }
+        },
+        "11": {
+            "nombre": "Tomate___Tiz\u00f3n_tard\u00edo",
+            "agente_causal": "Phytophthora infestans",
+            "recomendaciones": {
+                "cultivo": "Tomate",
+                "descripcion": "Manchas acuosas oscuras en hojas con esporulaci\u00f3n blanca en env\u00e9s; r\u00e1pida defoliaci\u00f3n.",
+                "medidas_culturales": [
+                    "Uso de variedades resistentes donde est\u00e9n disponibles.",
+                    "Eliminaci\u00f3n de plantas voluntarias de papa y tomate.",
+                    "Buen drenaje y ventilaci\u00f3n en invernadero o campo.",
+                    "Riego por goteo; nunca regar por tarde/noche.",
+                    "Tutoreo que permita circulaci\u00f3n de aire.",
+                    "Remoci\u00f3n de hojas infectadas inmediatamente."
+                ],
+                "manejo_quimico": [
+                    "Fungicidas preventivos: mancozeb, clorotalonil.",
+                    "Curativos: metalaxyl, mefenoxam, cymoxanil, fosetyl-Al.",
+                    "Programa intensivo: cada 5-7 d\u00edas en condiciones favorables.",
+                    "Rotar fungicidas sist\u00e9micos para evitar resistencia.",
+                    "En invernadero, usar nebulizaci\u00f3n con fungicidas de contacto."
+                ],
+                "monitoreo": "Condiciones favorables: 10-24\u00b0C con humedad >90%. Puede destruir cultivo en 7-10 d\u00edas. Alerta m\u00e1xima."
+            }
+        },
+        "12": {
+            "nombre": "Tomate___Moho_de_la_hoja",
+            "agente_causal": "Passalora fulva (Cladosporium fulvum)",
+            "recomendaciones": {
+                "cultivo": "Tomate",
+                "descripcion": "Manchas amarillentas en haz de hoja, esporulaci\u00f3n oliv\u00e1cea en env\u00e9s; defoliaci\u00f3n progresiva.",
+                "medidas_culturales": [
+                    "Uso de variedades resistentes (genes Cf).",
+                    "Buena ventilaci\u00f3n en invernadero (control de humedad relativa <85%).",
+                    "Eliminaci\u00f3n de hojas infectadas y rastrojo.",
+                    "Evitar riego por aspersi\u00f3n.",
+                    "Deshoje de hojas inferiores para mejorar aireaci\u00f3n."
+                ],
+                "manejo_quimico": [
+                    "Fungicidas con clorotalonil, mancozeb o azoxistrobina.",
+                    "En invernadero, usar azufre micronizado o caldo sulfoc\u00e1lcico.",
+                    "Aplicar al primer s\u00edntoma; intervalos de 7-14 d\u00edas.",
+                    "En infecci\u00f3n avanzada, usar fungicidas sist\u00e9micos como difenoconazol."
+                ],
+                "monitoreo": "Condiciones favorables: temperaturas 10-27\u00b0C con humedad alta. Com\u00fan en invernaderos mal ventilados."
+            }
+        },
+        "13": {
+            "nombre": "Tomate___Mancha_foliar_por_Septoria",
+            "agente_causal": "Septoria lycopersici",
+            "recomendaciones": {
+                "cultivo": "Tomate",
+                "descripcion": "Manchas circulares con bordes oscuros y puntos negros (picnidios) en centro; defoliaci\u00f3n desde base.",
+                "medidas_culturales": [
+                    "Rotaci\u00f3n de cultivos (m\u00ednimo 3 a\u00f1os sin solan\u00e1ceas).",
+                    "Eliminaci\u00f3n de rastrojo y malezas solan\u00e1ceas.",
+                    "Buen espaciamiento y ventilaci\u00f3n.",
+                    "Riego por goteo; evitar salpicadura de suelo.",
+                    "Uso de mulch para reducir dispersi\u00f3n de esporas desde suelo.",
+                    "Deshoje de hojas inferiores enfermas."
+                ],
+                "manejo_quimico": [
+                    "Fungicidas con mancozeb, clorotalonil o azoxistrobina.",
+                    "Aplicar preventivamente o al primer s\u00edntoma.",
+                    "Intervalos de 7-10 d\u00edas en condiciones h\u00famedas.",
+                    "Asegurar buena cobertura del fungicida en hojas inferiores."
+                ],
+                "monitoreo": "Condiciones favorables: temperaturas 15-27\u00b0C con humedad alta. Especialmente problem\u00e1tico en climas h\u00famedos."
+            }
+        },
+        "14": {
+            "nombre": "Tomate___\u00c1caro_de_dos_puntos",
+            "agente_causal": "Tetranychus urticae",
+            "recomendaciones": {
+                "cultivo": "Tomate",
+                "descripcion": "Punteado amarillento en hojas, telara\u00f1as en env\u00e9s; reduce vigor y producci\u00f3n.",
+                "medidas_culturales": [
+                    "Eliminaci\u00f3n de malezas hospederas alrededor del cultivo.",
+                    "Mantener humedad relativa alta (\u00e1caros prefieren ambientes secos).",
+                    "Riego por aspersi\u00f3n ocasional en env\u00e9s de hojas (con precauci\u00f3n de enfermedades f\u00fangicas).",
+                    "Uso de variedades tolerantes si disponibles.",
+                    "Liberaci\u00f3n de enemigos naturales: Phytoseiulus persimilis, Amblyseius swirskii."
+                ],
+                "manejo_quimico": [
+                    "Acaricidas con abamectina, bifenazato, spiromesifen o etoxazol.",
+                    "Aplicar al detectar primeras colonias (punteado en hojas).",
+                    "Mojar bien el env\u00e9s de las hojas donde se alojan los \u00e1caros.",
+                    "Rotar acaricidas de diferentes grupos qu\u00edmicos para evitar resistencia.",
+                    "Evitar uso indiscriminado de insecticidas de amplio espectro que eliminen depredadores."
+                ],
+                "monitoreo": "Revisar hojas inferiores y medianas con lupa. Condiciones favorables: temperaturas >25\u00b0C con humedad baja (<40%)."
+            }
+        },
+        "15": {
+            "nombre": "Tomate___Mancha_diana",
+            "agente_causal": "Corynespora cassiicola",
+            "recomendaciones": {
+                "cultivo": "Tomate",
+                "descripcion": "Lesiones circulares con anillos conc\u00e9ntricos (diana) en hojas, tallos y frutos.",
+                "medidas_culturales": [
+                    "Eliminaci\u00f3n de rastrojo y residuos de cultivo.",
+                    "Rotaci\u00f3n con cultivos no hospederos.",
+                    "Buena ventilaci\u00f3n y drenaje.",
+                    "Evitar riego por aspersi\u00f3n.",
+                    "Control de humedad en invernadero."
+                ],
+                "manejo_quimico": [
+                    "Fungicidas con clorotalonil, mancozeb o azoxistrobina.",
+                    "En infecci\u00f3n activa, usar fungicidas sist\u00e9micos como tebuconazol o difenoconazol.",
+                    "Aplicaciones cada 10-14 d\u00edas.",
+                    "Asegurar cobertura en tallos y frutos."
+                ],
+                "monitoreo": "Condiciones favorables: temperaturas 24-30\u00b0C con alta humedad. Revisar tallos y frutos adem\u00e1s de hojas."
+            }
+        },
+        "16": {
+            "nombre": "Tomate___Virus_del_rizado_amarillo_de_la_hoja_del_tomate",
+            "agente_causal": "Tomato yellow leaf curl virus (TYLCV), transmitido por Bemisia tabaci (mosca blanca)",
+            "recomendaciones": {
+                "cultivo": "Tomate",
+                "descripcion": "Enrollamiento de hojas hacia arriba, amarillamiento, reducci\u00f3n de crecimiento, frutos peque\u00f1os.",
+                "medidas_culturales": [
+                    "Uso de variedades resistentes (genes Ty-1, Ty-2, Ty-3).",
+                    "Uso de mallas anti\u00e1fidas (malla 50 mesh) en invernadero.",
+                    "Eliminaci\u00f3n de plantas enfermas inmediatamente (arrancar y destruir).",
+                    "Control de malezas que alberguen mosca blanca.",
+                    "Evitar trasplantar pl\u00e1ntulas infectadas.",
+                    "No sembrar cerca de cultivos de papa, tabaco o algod\u00f3n (fuentes de mosca blanca)."
+                ],
+                "manejo_quimico": [
+                    "Control de vector (mosca blanca): insecticidas con imidacloprid, thiamethoxam, acetamiprid.",
+                    "Aplicar en suelo (drench) o foliar seg\u00fan producto.",
+                    "Usar aceites minerales o jabones insecticidas como complemento.",
+                    "Rotar insecticidas para evitar resistencia en mosca blanca.",
+                    "IMPORTANTE: No hay cura para el virus; el control es exclusivamente del vector y prevenci\u00f3n."
+                ],
+                "monitoreo": "Vigilar presencia de mosca blanca con trampas amarillas. Revisar pl\u00e1ntulas desde trasplante. El virus se transmite en minutos de alimentaci\u00f3n."
+            }
+        },
+        "17": {
+            "nombre": "Tomate___Virus_del_mosaico_del_tomate",
+            "agente_causal": "Tomato mosaic virus (ToMV) / Tobacco mosaic virus (TMV)",
+            "recomendaciones": {
+                "cultivo": "Tomate",
+                "descripcion": "Mosaico de colores verde claro/oscuro en hojas, deformaci\u00f3n, frutos con manchas.",
+                "medidas_culturales": [
+                    "Uso de semilla certificada y resistente (genes Tm-1, Tm-2).",
+                    "Tratamiento de semilla con agua a 50\u00b0C por 25 minutos o \u00e1cido tricloroac\u00e9tico.",
+                    "Desinfecci\u00f3n de herramientas, tutores y superficies con lej\u00eda al 10% o alcohol 70%.",
+                    "Lavado de manos con jab\u00f3n antes de tocar plantas (el virus es muy contagioso).",
+                    "Eliminaci\u00f3n de plantas enfermas y malezas solan\u00e1ceas.",
+                    "No fumar cerca del cultivo (TMV est\u00e1 presente en tabaco)."
+                ],
+                "manejo_quimico": [
+                    "No hay cura qu\u00edmica para virus.",
+                    "Aplicar productos con prote\u00ednas de inducci\u00f3n de resistencia (harpinas, ASM) como complemento.",
+                    "Control de vectores mec\u00e1nicos (no hay insecto vector espec\u00edfico, se transmite por contacto)."
+                ],
+                "monitoreo": "Revisar pl\u00e1ntulas desde vivero. El virus es extremadamente resistente en el ambiente (a\u00f1os en suelo y superficies)."
+            }
+        },
+        "18": {
+            "nombre": "Tomate___Sano",
+            "recomendaciones": {
+                "cultivo": "Tomate",
+                "descripcion": "Planta sin s\u00edntomas de enfermedades.",
+                "medidas_preventivas": [
+                    "Monitoreo semanal de hojas, tallos y frutos.",
+                    "Mantener buena nutrici\u00f3n (N-P-K balanceado, micronutrientes).",
+                    "Riego uniforme sin estr\u00e9s h\u00eddrico.",
+                    "Buena ventilaci\u00f3n y control de humedad.",
+                    "Desinfecci\u00f3n de herramientas y manos regularmente.",
+                    "Uso de mulch para evitar salpicadura de suelo.",
+                    "Registro fotogr\u00e1fico y de condiciones para detecci\u00f3n temprana.",
+                    "Aplicaci\u00f3n preventiva de fungicidas de contacto si hay historial de enfermedades."
+                ],
+                "alerta": "El tomate es susceptible a m\u00faltiples pat\u00f3genos; la prevenci\u00f3n es clave. Revisar especialmente tras lluvias o cambios bruscos de temperatura."
+            }
+        }
+    }
+}
