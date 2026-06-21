@@ -5,7 +5,6 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import google.generativeai as genai
 import streamlit as st
 import json
 import os
