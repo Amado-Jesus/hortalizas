@@ -2,7 +2,6 @@ from PIL import Image
 import streamlit as st
 import matplotlib.pyplot as plt
 import torch
-import google.generativeai as genai
 import json
 import os
 from utils import *
