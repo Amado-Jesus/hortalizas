@@ -5,4 +5,4 @@ numpy==1.26.4
 matplotlib
 pillow
 seaborn==0.13.2
-google-generativeai
+json
