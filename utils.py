@@ -214,7 +214,7 @@ def obtener_recomendaciones(idx_):
     lineas.append("")
     
     # Descripcion
-    lineas.append("#### Descripcion")
+    lineas.append("#### Descripción")
     lineas.append(rec['descripcion'])
     lineas.append("")
     
@@ -231,7 +231,7 @@ def obtener_recomendaciones(idx_):
     lineas.append("")
     
     # Manejo quimico
-    lineas.append("#### Manejo Quimico")
+    lineas.append("#### Manejo Químico")
     quimico = rec.get("manejo_quimico", [])
     
     if quimico:
@@ -242,7 +242,7 @@ def obtener_recomendaciones(idx_):
     lineas.append("")
     
     # Manejo organico (NUEVO)
-    lineas.append("#### Manejo Organico")
+    lineas.append("#### Manejo Orgánico")
     organico = rec.get("manejo_organico", [])
     
     if organico:
