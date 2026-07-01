@@ -243,6 +243,11 @@ def obtener_recomendaciones(idx_):
     else:
         lineas.append("No aplica.")
     lineas.append("")
+
+
+    lineas.append("#### Manejo Químico")
+    lineas.append(rec['manejo_quimico'])
+    lineas.append("")
     
     # Monitoreo
     lineas.append("#### Monitoreo")
