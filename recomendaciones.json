@@ -1,0 +1,631 @@
+{
+  "enfermedades": {
+    "0": {
+      "nombre": "Maiz_Mancha_Foliar_Cercospora",
+      "agente_causal": "Cercospora zeae-maydis",
+      "recomendaciones": {
+        "cultivo": "Maiz",
+        "descripcion": "Manchas grises con bordes marrones en hojas, reduccion de fotosintesis. Tambien conocida como Mancha Gris del Maiz.",
+        "medidas_culturales": [
+          "Rotacion de cultivos con leguminosas o pastos por minimo 2 anos.",
+          "Eliminacion y destruccion de residuos de cosecha (rastrojo).",
+          "Uso de variedades resistentes o tolerantes.",
+          "Siembra en epocas adecuadas para evitar condiciones de alta humedad.",
+          "Evitar exceso de nitrogeno que promueve crecimiento vegetativo susceptible.",
+          "Manejo de residuos de cosecha para reducir inoculo inicial."
+        ],
+        "manejo_quimico": [
+          "Aplicar fungicidas con azoxistrobina, pyraclostrobin o mancozeb cuando se detecten las primeras manchas.",
+          "Realizar 2 a 3 aplicaciones con intervalos de 10 a 14 dias si las condiciones son favorables.",
+          "Aplicar en etapa de floracion (R1) como referencia de proteccion.",
+          "Fungicidas sistémicos: propiconazol, tebuconazol."
+        ],
+        "manejo_organico": [
+          "Aplicar caldo sulfocálcico (azufre + cal) cada 15 dias como preventivo.",
+          "Usar extracto de ajo y chile como repelente y fungicida natural.",
+          "Aplicar compost tea enriquecido con Trichoderma harzianum.",
+          "Polvo de roca (harina de rocas) para fortalecer la cutícula de la hoja.",
+          "Control biológico con Bacillus subtilis (QST 713).",
+          "Rotación con abono verde (veza, avena negra) para mejorar suelo."
+        ],
+        "monitoreo": "Inspeccionar hojas inferiores desde etapa de 6 a 8 hojas. Condiciones favorables: temperaturas 24 a 30 grados Celsius con alta humedad."
+      }
+    },
+    "1": {
+      "nombre": "Maiz_Roya_Comun",
+      "agente_causal": "Puccinia sorghi",
+      "recomendaciones": {
+        "cultivo": "Maiz",
+        "descripcion": "Pustulas de color marron rojizo en hojas, tallos y vainas. Reduce area fotosintetica y rendimiento del grano.",
+        "medidas_culturales": [
+          "Uso de variedades resistentes como principal medida de control.",
+          "Destruccion de plantas voluntarias y residuos de maiz.",
+          "Evitar siembras muy tardias que coincidan con periodos de alta inoculacion.",
+          "Mantener buen estado de nutricion, especialmente potasio.",
+          "Eliminacion de hospederos alternativos del hongo."
+        ],
+        "manejo_quimico": [
+          "Fungicidas con triazoles: propiconazol, tebuconazol, cyproconazol.",
+          "Estrobilurinas: azoxistrobina, pyraclostrobin.",
+          "Aplicar preventivamente si hay historial de la enfermedad.",
+          "En campos con alta presion, considerar tratamiento en etapa de floracion."
+        ],
+        "manejo_organico": [
+          "Aplicar caldo bordelés (sulfato de cobre + cal) en etapas tempranas.",
+          "Usar ceniza de madera finamente tamizada como fuente de potasio y repelente.",
+          "Fermentación de ortiga (Urtica dioica) como fortificante foliar.",
+          "Control biológico con Trichoderma harzianum en suelo.",
+          "Aplicar harina de huesos para mejorar resistencia del tejido vegetal."
+        ],
+        "monitoreo": "Vigilar desde etapa de floracion. Presencia de pustulas en hojas inferiores indica inicio de epidemia."
+      }
+    },
+    "2": {
+      "nombre": "Maiz_Sano",
+      "recomendaciones": {
+        "cultivo": "Maiz",
+        "descripcion": "Planta sin sintomas de enfermedades. Crecimiento vigoroso, hojas de color verde intenso, desarrollo normal.",
+        "medidas_preventivas": [
+          "Mantener practicas de manejo integrado de plagas (MIP).",
+          "Monitoreo regular del cultivo cada 7 a 10 dias.",
+          "Fertilizacion balanceada segun analisis de suelo.",
+          "Riego adecuado sin estres hidrico ni encharcamiento.",
+          "Control de malezas que compitan por nutrientes y agua.",
+          "Registro fotografico del estado del cultivo para comparaciones futuras.",
+          "Rotacion de cultivos para mantener salud del suelo."
+        ],
+        "manejo_organico": [
+          "Aplicar compost maduro antes de siembra (5 a 10 toneladas por hectarea).",
+          "Usar abonos verdes (veza, trigo, avena) como cobertura.",
+          "Fermentados de estiercol bovino como biofertilizante foliar.",
+          "Control biologico preventivo con Trichoderma y Pseudomonas.",
+          "Aplicar harina de rocas y ceniza para mineralización del suelo."
+        ],
+        "monitoreo": "Si se detecta algun cambio en coloracion, manchas o crecimiento anormal, consultar inmediatamente con un ingeniero agronomo."
+      }
+    },
+    "3": {
+      "nombre": "Nopal_Chinche_Gris",
+      "agente_causal": "Dysdercus sp. (chinche de algodon)",
+      "recomendaciones": {
+        "cultivo": "Nopal",
+        "descripcion": "Chinche de color gris que ataca cladodios, frutos y semillas. Causa manchas amarillentas y necrosis en tejidos.",
+        "medidas_culturales": [
+          "Eliminacion manual de chinches en etapas tempranas de infestacion.",
+          "Destruccion de hospederos alternativos (malvaceas, algodon).",
+          "Manejo de malezas alrededor del huerto de nopal.",
+          "Monitoreo frecuente de cladodios y frutos.",
+          "Barreras fisicas con mallas en etapas criticas."
+        ],
+        "manejo_quimico": [
+          "Insecticidas piretroides: deltametrina, lambdacialotrina.",
+          "Neonicotinoides: imidacloprid en dosis de 0.3 ml por litro.",
+          "Aplicar en horas de menor actividad de polinizadores.",
+          "Rotacion de insecticidas para evitar resistencia."
+        ],
+        "manejo_organico": [
+          "Aplicar jabon potasico al 2% con aceite de nim como coadyuvante.",
+          "Extracto de ajo y chile (100 gramos por litro de agua) como repelente.",
+          "Control biologico con Beauveria bassiana (hongos entomopatogenos).",
+          "Trampas cromáticas amarillas para captura de adultos.",
+          "Fermentado de ruda (Ruta graveolens) como insecticida natural.",
+          "Introduccion de depredadores naturales: Chrysoperla sp. (crisopa)."
+        ],
+        "monitoreo": "Revisar cladodios y frutos cada 5 a 7 dias. Los chinches son mas activos en epocas calidas. Atencion especial durante floracion y cuajado."
+      }
+    },
+    "4": {
+      "nombre": "Nopal_Chinche_Roja",
+      "agente_causal": "Dysdercus ruficollis (chinche roja)",
+      "recomendaciones": {
+        "cultivo": "Nopal",
+        "descripcion": "Chinche de color rojo intenso que ataca cladodios tiernos y frutos. Causa manchas oscuras y pudricion secundaria.",
+        "medidas_culturales": [
+          "Eliminacion manual de chinches y huevos en cladodios afectados.",
+          "Destruccion de plantas hospederas de la familia Malvaceae.",
+          "Control de malezas perimetrales del huerto.",
+          "Poda de cladodios severamente afectados.",
+          "Manejo de riego para evitar exceso de humedad."
+        ],
+        "manejo_quimico": [
+          "Insecticidas piretroides: cipermetrina, alfametrina.",
+          "Neonicotinoides: acetamiprid, thiamethoxam.",
+          "Aplicar en horario nocturno para proteger polinizadores.",
+          "Intervalos de aplicacion: 7 a 10 dias."
+        ],
+        "manejo_organico": [
+          "Jabon potasico al 2% con aceite de nim al 1%.",
+          "Extracto de neem (Azadirachta indica) al 5% como antialimentario.",
+          "Control biologico con Metarhizium anisopliae (hongo entomopatogeno).",
+          "Trampas cromáticas rojas y amarillas para monitoreo.",
+          "Caldo de ceniza (1 kg de ceniza en 10 litros de agua) como repelente.",
+          "Fermentado de tabaco (Nicotiana tabacum) como insecticida natural."
+        ],
+        "monitoreo": "Inspeccion semanal de cladodios nuevos y frutos. Los chinches rojas prefieren tejidos tiernos y jugosos."
+      }
+    },
+    "5": {
+      "nombre": "Nopal_Cochinilla",
+      "agente_causal": "Dactylopius opuntiae",
+      "recomendaciones": {
+        "cultivo": "Nopal",
+        "descripcion": "Insecto homoptero que forma masas algodonosas blancas en cladodios. Succiona savia debilitando la planta y produce melaza que favorece fumagina.",
+        "medidas_culturales": [
+          "Lavado de cladodios con agua a presion para remover cochinillas.",
+          "Poda de cladodios severamente infestados.",
+          "Eliminacion de hormigas que protegen la cochinilla.",
+          "Manejo de sombra para reducir humedad excesiva.",
+          "Control de malezas que albergen hormigas."
+        ],
+        "manejo_quimico": [
+          "Aceite mineral agricola al 2% durante estacion seca.",
+          "Jabon insecticida potasico al 2%.",
+          "Insecticidas sistémicos: imidacloprid en suelo (drench).",
+          "Aplicaciones cada 15 dias hasta control de poblacion."
+        ],
+        "manejo_organico": [
+          "Lavado con jabon potasico al 3% y cepillo suave.",
+          "Aceite de nim puro al 1% como insecticida y repelente.",
+          "Control biologico con Cryptolaemus montrouzieri (mariquita depredadora).",
+          "Aplicar harina de diatomeas (Tierra de diatomeas) en cladodios secos.",
+          "Extracto de chile habanero (50 gramos por litro) como repelente.",
+          "Fermentado de ortiga como fortificante del tejido vegetal."
+        ],
+        "monitoreo": "Revisar envés de cladodios cada 10 dias. La cochinilla se multiplica rapidamente en condiciones de sequia y alta temperatura."
+      }
+    },
+    "6": {
+      "nombre": "Nopal_Mal_de_Oro",
+      "agente_causal": "Candidatus Phytoplasma trifolii",
+      "recomendaciones": {
+        "cultivo": "Nopal",
+        "descripcion": "Enfermedad bacteriana que causa amarillamiento, enanismo y proliferacion anormal de cladodios. Transmitida por insectos chupadores.",
+        "medidas_culturales": [
+          "Erradicacion inmediata de plantas sintomaticas.",
+          "Uso de material de propagacion certificado y sano.",
+          "Control estricto del vector (cigarrillas, chicharritas).",
+          "Eliminacion de malezas que alberguen vectores y fitoplasmas.",
+          "Cuarentena de nuevas plantaciones antes de introducir al huerto."
+        ],
+        "manejo_quimico": [
+          "Insecticidas para control del vector: imidacloprid, thiamethoxam.",
+          "No hay cura bacteriana; el control es exclusivamente del vector.",
+          "Aplicaciones sistematicas cada 20 a 30 dias en epoca de brotacion."
+        ],
+        "manejo_organico": [
+          "Erradicacion de plantas enfermas y destruccion completa (quema).",
+          "Control biologico del vector con Beauveria bassiana.",
+          "Aplicar extracto de ajo y aceite de nim para repeler cigarrillas.",
+          "Fortalecer plantas con compost tea y microorganismos eficientes (EM).",
+          "Uso de trampas cromáticas amarillas y azules para monitoreo de vectores.",
+          "Rotacion con cultivos no hospederos por minimo 2 anos."
+        ],
+        "monitoreo": "Inspeccion mensual de brotes nuevos. El amarillamiento asimetrico y el crecimiento en forma de escoba son sintomas diagnosticos. Alerta maxima si se detecta en plantaciones nuevas."
+      }
+    },
+    "7": {
+      "nombre": "Nopal_Mancha_Negra",
+      "agente_causal": "Alternaria alternata, Stemphylium botryosum",
+      "recomendaciones": {
+        "cultivo": "Nopal",
+        "descripcion": "Manchas circulares de color negro a marron oscuro en cladodios. Centro claro con bordes definidos. Puede causar defoliacion en casos severos.",
+        "medidas_culturales": [
+          "Poda sanitaria de cladodios con mas del 50% de area afectada.",
+          "Eliminacion de residuos de poda (quema o entierro profundo).",
+          "Mejorar ventilacion entre plantas.",
+          "Evitar riego por aspersion; preferir goteo o manguera.",
+          "Control de humedad ambiental en invernaderos."
+        ],
+        "manejo_quimico": [
+          "Fungicidas protectores: mancozeb, clorotalonil.",
+          "Fungicidas sistémicos: azoxistrobina, difenoconazol.",
+          "Aplicar al primer sintoma; intervalos de 10 a 14 dias.",
+          "Caldo bordelés como alternativa en manejo integrado."
+        ],
+        "manejo_organico": [
+          "Aplicar caldo bordelés cada 15 dias en epoca de lluvias.",
+          "Bicarbonato de sodio al 1% con jabon potasico como fungicida foliar.",
+          "Control biologico con Trichoderma harzianum y Bacillus subtilis.",
+          "Extracto de equinacea (Echinacea purpurea) como estimulante de defensas.",
+          "Fermentado de cola de caballo (Equisetum arvense) como fungicida preventivo.",
+          "Aplicar ceniza de madera fina en suelo alrededor de plantas."
+        ],
+        "monitoreo": "Revisar cladodios cada 7 dias en epoca humeda. Condiciones favorables: temperaturas 20 a 28 grados Celsius con alta humedad relativa."
+      }
+    },
+    "8": {
+      "nombre": "Nopal_Saludable",
+      "recomendaciones": {
+        "cultivo": "Nopal",
+        "descripcion": "Cladodios de color verde intenso, turgentes, sin manchas ni deformaciones. Areolas con gloquidios normales, brotes de desarrollo vigoroso.",
+        "medidas_preventivas": [
+          "Monitoreo quincenal de cladodios y raices.",
+          "Fertilizacion balanceada con enfasis en calcio y potasio.",
+          "Riego moderado sin encharcamiento ni estres hidrico.",
+          "Control de malezas competidoras.",
+          "Poda de formacion para mejorar aireacion.",
+          "Desinfeccion de herramientas entre plantas.",
+          "Uso de material de propagacion certificado."
+        ],
+        "manejo_organico": [
+          "Aplicar compost maduro (20 a 30 toneladas por hectarea anual).",
+          "Biofertilizantes a base de lombricomposta y microorganismos eficientes.",
+          "Fermentados de estiercol bovino como fertilizante foliar.",
+          "Control biologico preventivo con Trichoderma y Pseudomonas fluorescens.",
+          "Aplicar harina de rocas y ceniza de madera para mineralizacion.",
+          "Coberturas vegetales (mulch organico) para conservar humedad."
+        ],
+        "monitoreo": "Inspeccion regular de cladodios nuevos y base de plantas. Cualquier cambio en coloracion, manchas o crecimiento anormal requiere atencion inmediata."
+      }
+    },
+    "9": {
+      "nombre": "Papa_Fungi",
+      "agente_causal": "Rhizoctonia solani, Fusarium spp., Verticillium spp.",
+      "recomendaciones": {
+        "cultivo": "Papa",
+        "descripcion": "Infecciones fungicas en tuberculo y raices que causan pudricion seca, marchitez y reduccion del rendimiento. Sintomas en follaje incluyen amarillamiento vascular.",
+        "medidas_culturales": [
+          "Uso de semilla certificada y tratada.",
+          "Rotacion de cultivos con cereales o pastos por minimo 3 anos.",
+          "Drenaje adecuado del suelo para evitar encharcamiento.",
+          "Eliminacion de tuberculos enfermos durante seleccion.",
+          "Profundidad de siembra adecuada (10 a 15 centimetros).",
+          "Evitar heridas mecanicas durante labores culturales."
+        ],
+        "manejo_quimico": [
+          "Tratamiento de semilla: thiabendazole, mancozeb.",
+          "Fungicidas de suelo: metalaxyl, mefenoxam.",
+          "Aplicaciones foliares: azoxistrobina, prothioconazole.",
+          "Fumigacion del suelo con metam sodico (en casos severos)."
+        ],
+        "manejo_organico": [
+          "Tratamiento de semilla con caldo sulfocálcico o ceniza.",
+          "Aplicar compost enriquecido con Trichoderma harzianum en suelo.",
+          "Control biologico con Bacillus subtilis y Pseudomonas fluorescens.",
+          "Fermentado de cola de caballo como fungicida preventivo del suelo.",
+          "Rotacion con mostaza (Brassica juncea) como biofumigante.",
+          "Aplicar harina de huesos y harina de rocas para fortalecer raices."
+        ],
+        "monitoreo": "Inspeccionar plantas desde emergencia. Sintomas de marchitez vascular indican infeccion en raices y tuberculos. Revisar tuberculos al momento de la cosecha."
+      }
+    },
+    "10": {
+      "nombre": "Papa_Mancha_Bacteriana",
+      "agente_causal": "Ralstonia solanacearum, Dickeya dadantii",
+      "recomendaciones": {
+        "cultivo": "Papa",
+        "descripcion": "Manchas acuosas oscuras en hojas, tallos y tuberculos. Causa marchitez bacteriana y pudricion blanda. Transmisión por semilla, suelo y herramientas.",
+        "medidas_culturales": [
+          "Uso de semilla certificada y libre de bacteria.",
+          "Rotacion con cultivos no solanaceos por minimo 4 anos.",
+          "Desinfeccion de herramientas e implementos.",
+          "Drenaje excelente del suelo.",
+          "Eliminacion de plantas enfermas inmediatamente.",
+          "Evitar movimiento de suelo de areas infectadas."
+        ],
+        "manejo_quimico": [
+          "No hay cura bacteriana efectiva.",
+          "Bactericidas de cobre como oxicloruro de cobre (preventivo limitado).",
+          "Fumigacion del suelo con bromuro de metilo (restringido).",
+          "Tratamiento de semilla con antibioticos (donde este permitido)."
+        ],
+        "manejo_organico": [
+          "Erradicacion completa de plantas enfermas y su destruccion.",
+          "Solarizacion del suelo con plastico transparente por 4 a 6 semanas.",
+          "Aplicar compost tea con microorganismos antagonistas.",
+          "Control biologico con Bacillus subtilis y Streptomyces spp.",
+          "Fermentado de ajo y cebolla como bactericida natural.",
+          "Biofumigacion con mostaza (Brassica) incorporada al suelo."
+        ],
+        "monitoreo": "Alerta maxima: temperaturas 25 a 35 grados Celsius con humedad alta. Revisar tallos base para exudado bacteriano. El marchitamiento irreversible es sintoma diagnostico."
+      }
+    },
+    "11": {
+      "nombre": "Papa_Nematodo",
+      "agente_causal": "Globodera rostochiensis, Globodera pallida, Meloidogyne spp.",
+      "recomendaciones": {
+        "cultivo": "Papa",
+        "descripcion": "Formacion de agallas en raices causada por nematodos. Reduce absorcion de agua y nutrientes, provocando marchitez y reduccion de rendimiento.",
+        "medidas_culturales": [
+          "Uso de variedades resistentes donde esten disponibles.",
+          "Rotacion con cultivos no hospederos por minimo 4 anos.",
+          "Eliminacion de plantas voluntarias de papa.",
+          "Suelo libre de quistes: analisis previo de suelo.",
+          "Limpieza de maquinaria para evitar dispersion de suelo infectado.",
+          "Siembra en epocas que eviten temperaturas optimas para nematodos."
+        ],
+        "manejo_quimico": [
+          "Nematicidas: oxamyl, fenamiphos (uso restringido).",
+          "Fumigantes del suelo: 1,3-dicloropropeno, metam sodico.",
+          "Tratamiento de semilla con productos nematicidas.",
+          "Aplicaciones al suelo antes de siembra."
+        ],
+        "manejo_organico": [
+          "Biofumigacion con mostaza (Brassica juncea) y rabaniza.",
+          "Incorporacion de harina de neem (Azadirachta indica) al suelo.",
+          "Control biologico con Paecilomyces lilacinus y Purpureocillium lilacinum.",
+          "Aplicar compost rico en materia organica para aumentar antagonistas.",
+          "Solarizacion del suelo con plastico durante verano.",
+          "Uso de plantas trampas (Solanum sisymbriifolium) para reducir poblacion."
+        ],
+        "monitoreo": "Analisis de suelo previo a siembra para detectar quistes. Observar raices al desarrollar: agallas visibles indican infeccion activa."
+      }
+    },
+    "12": {
+      "nombre": "Papa_Sana",
+      "recomendaciones": {
+        "cultivo": "Papa",
+        "descripcion": "Planta sin sintomas de enfermedades. Follaje verde vigoroso, tuberculos bien formados sin lesiones ni pudricion.",
+        "medidas_preventivas": [
+          "Uso de semilla certificada de alta calidad.",
+          "Rotacion de cultivos adecuada.",
+          "Analisis de suelo previo a siembra.",
+          "Drenaje adecuado y manejo de riego.",
+          "Desinfeccion de herramientas y equipos.",
+          "Control de malezas hospederas.",
+          "Monitoreo regular del cultivo."
+        ],
+        "manejo_organico": [
+          "Aplicar compost maduro (15 a 20 toneladas por hectarea).",
+          "Biofertilizantes con microorganismos eficientes (EM).",
+          "Control biologico preventivo con Trichoderma y Bacillus.",
+          "Fermentados de estiercol como bioestimulantes.",
+          "Harina de rocas y ceniza para nutricion mineral.",
+          "Coberturas organicas (mulch) para regulacion termica."
+        ],
+        "monitoreo": "Inspeccion semanal de follaje y raices. Cualquier cambio en coloracion, crecimiento o presencia de agallas requiere diagnostico inmediato."
+      }
+    },
+    "13": {
+      "nombre": "Papa_Tizon_Tardio",
+      "agente_causal": "Phytophthora infestans",
+      "recomendaciones": {
+        "cultivo": "Papa",
+        "descripcion": "Manchas acuosas en hojas con esporulacion blanca en envés. Puede destruir follaje en dias. Causa pudricion húmeda en tuberculos.",
+        "medidas_culturales": [
+          "Uso de variedades resistentes (R genes contra P. infestans).",
+          "Siembra de tuberculos certificados y sanos.",
+          "Eliminacion de plantas voluntarias y lotes de siembra temprana.",
+          "Buen drenaje del suelo para evitar encharcamiento.",
+          "Riego por goteo; evitar aspersion en tarde y noche.",
+          "Cosecha cuando el follaje este seco; secar tuberculos antes de almacenar."
+        ],
+        "manejo_quimico": [
+          "Fungicidas preventivos: mancozeb, clorotalonil.",
+          "Curativos: metalaxyl, mefenoxam, cymoxanil, fosetyl-Al.",
+          "Programa intensivo: cada 5 a 7 dias en condiciones favorables.",
+          "Rotar fungicidas sistémicos para evitar resistencia.",
+          "En almacenamiento, ventilar bien y mantener temperaturas 4 a 10 grados Celsius."
+        ],
+        "manejo_organico": [
+          "Aplicar caldo bordelés preventivamente cada 7 dias en epoca humeda.",
+          "Extracto de equinacea como estimulante de defensas vegetales.",
+          "Control biologico con Trichoderma harzianum y Bacillus subtilis.",
+          "Bicarbonato de sodio al 0.5% con jabon potasico como fungicida foliar.",
+          "Fermentado de cola de caballo (Equisetum arvense) preventivo.",
+          "Eliminacion inmediata de follaje infectado para reducir inoculo."
+        ],
+        "monitoreo": "Alerta fitosanitaria: temperaturas 10 a 24 grados Celsius con humedad mayor al 90% por mas de 6 horas. Usar modelos de prediccion (Blitecast). El tizon tardio puede destruir cultivo en 7 a 10 dias."
+      }
+    },
+    "14": {
+      "nombre": "Papa_Tizon_Temprano",
+      "agente_causal": "Alternaria solani",
+      "recomendaciones": {
+        "cultivo": "Papa",
+        "descripcion": "Manchas circulares con anillos concentricos (patron diana) en hojas. Defoliacion progresiva desde base de planta. Tambien afecta tallos y tuberculos.",
+        "medidas_culturales": [
+          "Rotacion de cultivos con cereales o pastos por minimo 3 anos.",
+          "Eliminacion de rastrojo y residuos de cosecha.",
+          "Espaciamiento adecuado para ventilacion.",
+          "Riego por goteo; evitar mojar follaje.",
+          "Fertilizacion con enfasis en potasio y fosforo.",
+          "Eliminacion de hojas inferiores enferdas."
+        ],
+        "manejo_quimico": [
+          "Fungicidas protectores: mancozeb, clorotalonil.",
+          "Fungicidas sistémicos: azoxistrobina, difenoconazol, tebuconazol.",
+          "Aplicar al primer sintoma; intervalos de 7 a 10 dias.",
+          "Programa de 3 a 4 aplicaciones en temporada de lluvia.",
+          "Caldo bordelés como alternativa en manejo integrado."
+        ],
+        "manejo_organico": [
+          "Aplicar caldo bordelés cada 10 a 15 dias en epoca de lluvias.",
+          "Extracto de ajo (100 gramos por litro) como fungicida preventivo.",
+          "Control biologico con Trichoderma harzianum en suelo y follaje.",
+          "Bicarbonato de sodio al 1% con jabon potasico.",
+          "Fermentado de cola de caballo (Equisetum arvense) preventivo.",
+          "Compost tea enriquecido con microorganismos antagonistas."
+        ],
+        "monitoreo": "Condiciones favorables: 24 a 29 grados Celsius con humedad relativa mayor al 90%. Revisar hojas inferiores desde etapa de fructificacion. El patron diana es diagnostico."
+      }
+    },
+    "15": {
+      "nombre": "Papa_Virus_Mosaico",
+      "agente_causal": "Potato virus Y (PVY), Potato virus X (PVX), Potato leafroll virus (PLRV)",
+      "recomendaciones": {
+        "cultivo": "Papa",
+        "descripcion": "Mosaico de colores en hojas, enrollamiento, deformacion foliar y reduccion de rendimiento. Transmitido por afidos y material de propagacion infectado.",
+        "medidas_culturales": [
+          "Uso de semilla certificada libre de virus.",
+          "Eliminacion de plantas sintomaticas inmediatamente.",
+          "Control de afidos (vector principal).",
+          "Eliminacion de plantas voluntarias y solanaceas silvestres.",
+          "Mallas antiáfidas en produccion de semilla.",
+          "Aislamiento de lotes de semilla de lotes comerciales."
+        ],
+        "manejo_quimico": [
+          "Insecticidas para control de vector: imidacloprid, pymetrozine.",
+          "Aceites minerales para reducir transmision no persistente.",
+          "No hay cura para el virus; el control es exclusivamente del vector.",
+          "Aplicaciones sistematicas cada 15 a 20 dias."
+        ],
+        "manejo_organico": [
+          "Uso de variedades resistentes donde esten disponibles.",
+          "Control biologico de afidos con Aphidius colemani y Chrysoperla.",
+          "Extracto de ajo y aceite de nim como repelentes de afidos.",
+          "Mallas antiáfidas (malla 50 mesh) en invernaderos.",
+          "Eliminacion inmediata de plantas sintomaticas (erradicacion).",
+          "Bioestimulantes para fortalecer resistencia de plantas (alga Ascophyllum)."
+        ],
+        "monitoreo": "Inspeccion semanal de follaje. Los afidos transmiten virus en segundos de alimentacion. Presencia de mosaico en hojas nuevas indica infeccion activa."
+      }
+    },
+    "16": {
+      "nombre": "Tomate_Mancha_Bacteriana",
+      "agente_causal": "Xanthomonas campestris pv. vesicatoria, Xanthomonas perforans",
+      "recomendaciones": {
+        "cultivo": "Tomate",
+        "descripcion": "Manchas acuosas pequenas en hojas y frutos, con halo amarillo. Frutos con lesiones elevadas. Puede causar defoliacion severa.",
+        "medidas_culturales": [
+          "Semilla certificada y tratada termicamente (agua a 50 grados Celsius por 25 minutos).",
+          "Rotacion de cultivos por minimo 2 anos sin solanaceas.",
+          "Eliminacion de plantas enfermas y malezas hospederas.",
+          "No trabajar en campo con plantas mojadas.",
+          "Desinfeccion de herramientas con hipoclorito de sodio al 10%.",
+          "Riego por goteo en lugar de aspersion."
+        ],
+        "manejo_quimico": [
+          "Bactericidas de cobre: oxicloruro de cobre, hidroxido de cobre.",
+          "En infeccion activa, usar estreptomicina sulfato donde este permitido.",
+          "Aplicaciones cada 7 a 10 dias, especialmente despues de lluvia.",
+          "Alternar modos de accion para evitar resistencia."
+        ],
+        "manejo_organico": [
+          "Bactericidas de cobre a dosis reducidas (preventivo).",
+          "Extracto de ajo (100 gramos por litro) como bactericida natural.",
+          "Control biologico con Bacillus subtilis (QST 713) y Pseudomonas fluorescens.",
+          "Fermentado de ruda (Ruta graveolens) como bactericida.",
+          "Bicarbonato de sodio al 0.5% con jabon potasico.",
+          "Compost tea con microorganismos antagonistas."
+        ],
+        "monitoreo": "Condiciones favorables: temperaturas 25 a 30 grados Celsius con humedad alta y lluvia. Revisar desde etapa de plántula."
+      }
+    },
+    "17": {
+      "nombre": "Tomate_Mancha_Gris",
+      "agente_causal": "Stemphylium solani, Stemphylium lycopersici",
+      "recomendaciones": {
+        "cultivo": "Tomate",
+        "descripcion": "Manchas circulares grises con bordes oscuros en hojas. Puede causar defoliacion progresiva desde base de planta.",
+        "medidas_culturales": [
+          "Rotacion de cultivos por minimo 2 anos sin solanaceas.",
+          "Eliminacion de rastrojo y malezas solanaceas.",
+          "Buena ventilacion entre plantas (espaciamiento adecuado).",
+          "Riego por goteo; evitar mojar follaje.",
+          "Eliminacion de hojas inferiores enfermas.",
+          "Fertilizacion balanceada; potasio y calcio fortalecen resistencia."
+        ],
+        "manejo_quimico": [
+          "Fungicidas con mancozeb, clorotalonil o azoxistrobina.",
+          "Aplicar al primer sintoma o preventivamente en historial de enfermedad.",
+          "Intervalos de 10 a 14 dias.",
+          "En frutos, aplicar caldo bordelés preventivamente."
+        ],
+        "manejo_organico": [
+          "Aplicar caldo bordelés cada 10 a 15 dias.",
+          "Extracto de ajo y cebolla como fungicida preventivo.",
+          "Control biologico con Trichoderma harzianum.",
+          "Bicarbonato de sodio al 1% con jabon potasico.",
+          "Fermentado de cola de caballo (Equisetum arvense).",
+          "Compost tea enriquecido con microorganismos eficientes."
+        ],
+        "monitoreo": "Condiciones favorables: temperaturas 20 a 30 grados Celsius con humedad relativa mayor al 90%. Revisar hojas inferiores."
+      }
+    },
+    "18": {
+      "nombre": "Tomate_Mildeo_Polvoriento",
+      "agente_causal": "Oidium lycopersici, Leveillula taurica",
+      "recomendaciones": {
+        "cultivo": "Tomate",
+        "descripcion": "Capa blanca polvorienta en hojas, tallos y frutos. Causa clorosis, necrosis y reduccion de fotosintesis. Comun en invernaderos.",
+        "medidas_culturales": [
+          "Buena ventilacion en invernadero o campo.",
+          "Control de humedad relativa (evitar exceso).",
+          "Eliminacion de hojas infectadas y rastrojo.",
+          "Evitar riego por aspersion.",
+          "Deshoje de hojas inferiores para mejorar aireacion.",
+          "Espaciamiento adecuado entre plantas."
+        ],
+        "manejo_quimico": [
+          "Azufre micronizado o caldo sulfocálcico (especialmente en invernadero).",
+          "Fungicidas: myclobutanil, penconazole, tebuconazol.",
+          "Aplicar al primer sintoma; intervalos de 7 a 14 dias.",
+          "En infeccion avanzada, usar fungicidas sistémicos."
+        ],
+        "manejo_organico": [
+          "Azufre micronizado al 0.3% como fungicida preventivo.",
+          "Leche diluida al 10% (1 parte leche por 9 partes agua) como fungicida foliar.",
+          "Bicarbonato de sodio al 0.5% con jabon potasico.",
+          "Extracto de ajo (100 gramos por litro) como preventivo.",
+          "Control biologico con Bacillus subtilis y Trichoderma harzianum.",
+          "Fermentado de ortiga (Urtica dioica) como fortificante foliar."
+        ],
+        "monitoreo": "Condiciones favorables: temperaturas 10 a 27 grados Celsius con humedad alta. Comun en invernaderos mal ventilados. Revisar envés de hojas."
+      }
+    },
+    "19": {
+      "nombre": "Tomate_Moho_Negro",
+      "agente_causal": "Alternaria alternata",
+      "recomendaciones": {
+        "cultivo": "Tomate",
+        "descripcion": "Manchas negras con anillos concentricos en hojas y frutos. Causa pudricion en frutos maduros. Defoliacion progresiva.",
+        "medidas_culturales": [
+          "Rotacion de cultivos por minimo 2 anos sin solanaceas.",
+          "Eliminacion de rastrojo y residuos de cosecha.",
+          "Buena ventilacion entre plantas.",
+          "Riego por goteo; evitar mojar follaje.",
+          "Cosecha oportuna para evitar sobre-maduracion en planta.",
+          "Eliminacion de frutos caidos y podridos."
+        ],
+        "manejo_quimico": [
+          "Fungicidas protectores: mancozeb, clorotalonil.",
+          "Fungicidas sistémicos: azoxistrobina, difenoconazol, iprodione.",
+          "Aplicar al primer sintoma; intervalos de 7 a 10 dias.",
+          "En post-cosecha, tratamiento de frutos con fungicidas de contacto."
+        ],
+        "manejo_organico": [
+          "Aplicar caldo bordelés cada 10 a 15 dias.",
+          "Extracto de ajo y cebolla como fungicida preventivo.",
+          "Control biologico con Trichoderma harzianum.",
+          "Bicarbonato de sodio al 1% con jabon potasico.",
+          "Fermentado de cola de caballo (Equisetum arvense).",
+          "Compost tea enriquecido con microorganismos antagonistas."
+        ],
+        "monitoreo": "Condiciones favorables: temperaturas 20 a 30 grados Celsius con humedad alta. Revisar frutos en maduracion. El moho negro es problema serio en post-cosecha."
+      }
+    },
+    "20": {
+      "nombre": "Tomate_Tizon_Tardio",
+      "agente_causal": "Phytophthora infestans",
+      "recomendaciones": {
+        "cultivo": "Tomate",
+        "descripcion": "Manchas acuosas oscuras en hojas con esporulacion blanca en envés. Rapida defoliacion. Puede destruir cultivo en dias.",
+        "medidas_culturales": [
+          "Uso de variedades resistentes donde esten disponibles.",
+          "Eliminacion de plantas voluntarias de papa y tomate.",
+          "Buen drenaje y ventilacion en invernadero o campo.",
+          "Riego por goteo; nunca regar por tarde o noche.",
+          "Tutoreo que permita circulacion de aire.",
+          "Remocion de hojas infectadas inmediatamente."
+        ],
+        "manejo_quimico": [
+          "Fungicidas preventivos: mancozeb, clorotalonil.",
+          "Curativos: metalaxyl, mefenoxam, cymoxanil, fosetyl-Al.",
+          "Programa intensivo: cada 5 a 7 dias en condiciones favorables.",
+          "Rotar fungicidas sistémicos para evitar resistencia.",
+          "En invernadero, usar nebulizacion con fungicidas de contacto."
+        ],
+        "manejo_organico": [
+          "Aplicar caldo bordelés preventivamente cada 7 dias en epoca humeda.",
+          "Extracto de equinacea (Echinacea purpurea) como estimulante de defensas.",
+          "Control biologico con Trichoderma harzianum y Bacillus subtilis.",
+          "Bicarbonato de sodio al 0.5% con jabon potasico.",
+          "Fermentado de cola de caballo (Equisetum arvense) preventivo.",
+          "Eliminacion inmediata de follaje infectado para reducir inoculo."
+        ],
+        "monitoreo": "Alerta maxima: temperaturas 10 a 24 grados Celsius con humedad mayor al 90%. Puede destruir cultivo en 7 a 10 dias. Usar modelos de prediccion climaticos."
+      }
+    }
+  }
+}
