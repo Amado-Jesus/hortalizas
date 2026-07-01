@@ -180,14 +180,12 @@ def predict(img, model,transforms, device='cpu'):
     return fig,pred_idx
 
 
-
-
 def obtener_recomendaciones(idx_):
     """
     Retorna las recomendaciones de una enfermedad formateadas para st.markdown().
     
     Parametro:
-        idx_ (str o int): Indice de la enfermedad (0-18)
+        idx_ (str o int): Indice de la enfermedad
     
     Retorna:
         str: Texto en formato Markdown
@@ -202,10 +200,9 @@ def obtener_recomendaciones(idx_):
     rec = info["recomendaciones"]
     
     lineas = []
-
+    
     nombre = info['nombre']
     nombre_limpio = nombre.replace("_", " ")
-
     
     # Titulo
     lineas.append(f"#### {nombre_limpio}")
@@ -243,10 +240,16 @@ def obtener_recomendaciones(idx_):
     else:
         lineas.append("No aplica.")
     lineas.append("")
-
-
-    lineas.append("#### Manejo Químico")
-    lineas.append(rec['manejo_quimico'])
+    
+    # Manejo organico (NUEVO)
+    lineas.append("#### Manejo Organico")
+    organico = rec.get("manejo_organico", [])
+    
+    if organico:
+        for practica in organico:
+            lineas.append(f"- {practica}")
+    else:
+        lineas.append("No aplica.")
     lineas.append("")
     
     # Monitoreo
@@ -254,3 +257,4 @@ def obtener_recomendaciones(idx_):
     lineas.append(rec.get('monitoreo', 'Revision periodica del cultivo.'))
     
     return "\n".join(lineas)
+
