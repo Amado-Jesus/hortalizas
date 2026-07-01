@@ -28,77 +28,80 @@ val_transform = transforms.Compose([
 
 from torchvision import models
 
+class MobileNetV3Small(nn.Module):
+    def __init__(self, num_classes=2, pretrained=True, freeze_features=True):
+        super(MobileNetV3Small, self).__init__()
+        
+        # Cargar MobileNet-V3 Small preentrenado
+        if pretrained:
+            self.backbone = models.mobilenet_v3_small(
+                weights=models.MobileNet_V3_Small_Weights.IMAGENET1K_V1
+            )
+        else:
+            self.backbone = models.mobilenet_v3_small(weights=None)
+        
+        # Congelar features
+        if freeze_features:
+            for param in self.backbone.features.parameters():
+                param.requires_grad = True
+        
+        # Reemplazar clasificador completo
+        # V3 Small tiene: Linear -> Hardswish -> Dropout -> Linear
+        in_features = self.backbone.classifier[0].in_features  # 576
+        
+        self.backbone.classifier = nn.Sequential(
+            nn.Linear(in_features, 512),
+            nn.BatchNorm1d(512),
+            nn.Hardswish(),
+            nn.Dropout(0.5),
+
+            nn.Linear(512, 256),
+            nn.BatchNorm1d(256),
+            nn.Hardswish(),
+            nn.Dropout(0.3),
+
+            nn.Linear(256, num_classes)
+        )
+    
+    def forward(self, x):
+        return self.backbone(x)
+    
+    def unfreeze_features(self):
+        """Descongela todas las capas para entrenamiento completo."""
+        for param in self.backbone.features.parameters():
+            param.requires_grad = True
+
 import torch
 import torch.nn as nn
 from torchvision import models
 
-def CNN():
 
-    model = models.mobilenet_v3_small(
-    weights=models.MobileNet_V3_Small_Weights.IMAGENET1K_V1)
-    
-
-    for param in model.parameters():
-        
-        param.requires_grad = False
-
-    for param in model.classifier.parameters():
-        param.requires_grad = True
-        
-
-    for param in model.features[-2:].parameters():
-        param.requires_grad = True
-
-    in_features = model.classifier[0].in_features
-    
-
-    model.classifier = nn.Sequential(
-        
-        nn.Linear(in_features, 512),
-        nn.BatchNorm1d(512),
-        nn.Hardswish(),
-        nn.Dropout(0.5),
-
-        nn.Linear(512, 256),
-        nn.BatchNorm1d(256),
-        nn.Hardswish(),
-        nn.Dropout(0.3),
-
-        nn.Linear(256, 19)
-
-    )
-
-    return model
-    
 with open("recomendaciones.json", "r", encoding="utf-8") as archivo:
     
     enfermedades = json.load(archivo)   
 
 
-idx = {
-    0: 'Maíz___Mancha_foliar_por_Cercospora_(Mancha_gris)',
-    1: 'Maíz___Roya_común',
-    2: 'Maíz___Tizón_foliar_del_norte',
-    3: 'Maíz___Sano',
-
-    4: 'Pimiento_morrón___Mancha_bacteriana',
-    5: 'Pimiento_morrón___Sano',
-
-    6: 'Papa___Tizón_temprano',
-    7: 'Papa___Tizón_tardío',
-    8: 'Papa___Sana',
-
-    9: 'Tomate___Mancha_bacteriana',
-    10: 'Tomate___Tizón_temprano',
-    11: 'Tomate___Tizón_tardío',
-    12: 'Tomate___Moho_de_la_hoja',
-    13: 'Tomate___Mancha_foliar_por_Septoria',
-    14: 'Tomate___Ácaro_de_dos_puntos',
-    15: 'Tomate___Mancha_diana',
-    16: 'Tomate___Virus_del_rizado_amarillo_de_la_hoja_del_tomate',
-    17: 'Tomate___Virus_del_mosaico_del_tomate',
-    18: 'Tomate___Sano'
-}
+idx = {0: 'Maiz_Mancha_Foliar_Cercospora',
+ 1: 'Maiz_Roya_Comun',
+ 2: 'Maiz_Sano',
+ 3: 'Nopal_Chinche_Gris',
+ 4: 'Nopal_Chinche_Roja',
+ 5: 'Nopal_Cochinilla',
+ 6: 'Nopal_Mal_de_Oro',
+ 7: 'Nopal_Mancha_Negra',
+ 8: 'Nopal_Saludable',
+ 9: 'Papa_Fungi',
+ 10: 'Papa_Mancha_Bacteriana',
+ 11: 'Papa_Nematodo',
+ 12: 'Papa_Sana',
+ 13: 'Papa_Tizon_Tardio',
+ 14: 'Papa_Tizon_Temprano',
+ 15: 'Papa_Virus_Mosaico',
+ 16: 'Tomate_Mancha_Bacteriana',
+ 17: 'Tomate_Mancha_Gris',
+ 18: 'Tomate_Mildeo_Polvoriento',
+ 19: 'Tomate_Moho_Negro',
+ 20: 'Tomate_Tizon_Tardio'}
 
 def predict(img, model,transforms, device='cpu'):
     """
